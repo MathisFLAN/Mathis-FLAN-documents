@@ -1,0 +1,2 @@
+Personne doit payer, 0 €, cette personne a 4 enfant(s)
+Ce fichier est en lien avec le programme création de fichier dimpot dans le dossier python
