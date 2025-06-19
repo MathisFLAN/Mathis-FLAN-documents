@@ -1,0 +1,16 @@
+p {
+    background-color: green;
+}
+
+.Cvert {
+    background-color: yellow;
+    font-family: Arial;
+}
+
+#discipline {
+    background-color: pink;
+}
+
+div, span {
+    background-color: blue;
+}

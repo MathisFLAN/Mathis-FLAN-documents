@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP4 Mathis Flan</title>
+    <link rel="stylesheet" href="CSS.css">
+    <script defer src="java.js"></script>
+</head>
+<body>
+    <div class="formulaire">
+        <form>
+            <h1 id="titre">Formulaire de contact</h1>
+
+            <label>Prénom</label>
+            <input id="Prenom" type="text" name="prenom" placeholder="Votre prénom" required><br>
+
+            <label>Nom</label>
+            <input id="Nom" type="text" name="nom" placeholder="Votre nom" required><br>
+
+            <label>Age</label>
+            <input id="Age" type="number" name="age" placeholder="Votre age"><br>
+
+            <label>Email</label>
+            <input id="Email" type="email" name="email" placeholder="Votre email"><br>
+
+            <label>Téléphone</label>
+            <input id="Telephone" type="tel" name="telephone" placeholder="Votre téléphone"><br>
+
+            <label>Continent</label>
+            <select name="continent">
+                <option value="Europe">Europe</option>
+                <option value="Asie">Asie</option>
+                <option value="Afrique">Afrique</option>
+                <option value="Amerique">Amérique</option>
+                <option value="Océanie">Océanie</option>
+            </select><br>
+
+            <input type="button" value="Valider" onclick="onClickChangeTitle()">
+        </form>
+    </div>
+</body>
+</html>
