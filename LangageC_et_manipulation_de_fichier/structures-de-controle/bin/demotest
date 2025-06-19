@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+if test nombre.c -nt nombre
+then
+        echo "nombre.c est plus récent => on compile"
+else
+        echo "nombre.c est plus ancien => on ne compile pas"
+
+fi

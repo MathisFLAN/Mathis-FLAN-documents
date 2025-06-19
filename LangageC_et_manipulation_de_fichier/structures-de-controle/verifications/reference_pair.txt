@@ -1,0 +1,2 @@
+Saisir une chiffre 
+Ce nombre est pair
